@@ -47,10 +47,10 @@ const LabelWithDescription = () => {
           <p>{description}
           <div className={`arrow1 ${selectedDescription === description && 'right'}`}></div></p>
           
-          {/* Include additional logic for showing/hiding paragraph */}
+         
           {selectedDescription === description && (
             <div className="description-paragraph">
-              <p>This is the paragraph for {description}</p>
+              <p>This is the paragraph for: {description}</p>
             </div>
           )}
           

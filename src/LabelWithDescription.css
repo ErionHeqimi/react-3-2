@@ -28,7 +28,7 @@ body {
 
 .description {
   display: flex;
-  flex-direction: column; /* Display description elements in a column */
+  flex-direction: column; 
   padding-top: 10px;
   background-color: white; 
   padding: 10px; 
@@ -42,14 +42,14 @@ body {
   height: max(3px, 0.5vw);
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-  transform: rotate(-45deg); /* Initially pointing right */
+  transform: rotate(-45deg);
   margin-left: auto; 
   margin-right: 2%;
   
 }
 
 .arrow.up {
-  transform: rotate(135deg); /* Rotate arrow to point upwards */
+  transform: rotate(135deg); 
 }
 
 p {
@@ -66,7 +66,7 @@ strong{
 }
 
 .description-paragraph {
-  padding-top: 10px; /* Add padding between description and paragraph */
+  padding-top: 10px; 
   
 }
 
@@ -75,9 +75,9 @@ strong{
   
   width: max(3px, 0.5vw);
   height: max(3px, 0.5vw);
-  border-left: 2px solid black;
+  border-left: 2px solid rgb(4, 4, 4);
   border-bottom: 2px solid black;
-  transform: rotate(225deg); /* Initially pointing right */
+  transform: rotate(225deg); 
   margin-left: auto; 
   margin-right: 2%;
   
@@ -85,6 +85,7 @@ strong{
 
 .arrow1.right {
   transform: rotate(135deg); 
+  
   
 } 
 
