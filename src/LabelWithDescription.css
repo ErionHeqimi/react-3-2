@@ -1,0 +1,90 @@
+body {
+  padding: 2% 2% 2% 2%;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+}
+
+.label1 {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255); 
+  padding: 5px; 
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: max(10px, 1vw);
+}
+
+.group {
+  display: flex;
+  padding-top: 1%; 
+  padding-left: 1%;
+  gap: 15px;
+  
+}
+
+
+.description {
+  display: flex;
+  flex-direction: column; /* Display description elements in a column */
+  padding-top: 10px;
+  background-color: white; 
+  padding: 10px; 
+  border: 1px solid lightgrey;
+  
+}
+
+.arrow {
+
+  width: max(3px, 0.5vw);
+  height: max(3px, 0.5vw);
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(-45deg); /* Initially pointing right */
+  margin-left: auto; 
+  margin-right: 2%;
+  
+}
+
+.arrow.up {
+  transform: rotate(135deg); /* Rotate arrow to point upwards */
+}
+
+p {
+  font-size: max(9px, 1vw);
+  
+}
+strong{
+  font-size: max(11px, 1.1vw);
+}
+
+.react-logo {
+  width: max(30px, 3.5vw); 
+  height:  max(30px, 3.5vw); 
+}
+
+.description-paragraph {
+  padding-top: 10px; /* Add padding between description and paragraph */
+  
+}
+
+
+.arrow1 {
+  
+  width: max(3px, 0.5vw);
+  height: max(3px, 0.5vw);
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(225deg); /* Initially pointing right */
+  margin-left: auto; 
+  margin-right: 2%;
+  
+}
+
+.arrow1.right {
+  transform: rotate(135deg); 
+  
+} 
+
